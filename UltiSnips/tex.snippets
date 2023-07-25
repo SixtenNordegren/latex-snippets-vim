@@ -118,11 +118,19 @@ $1
 endsnippet
 
 snippet eq "equation" i
-\begin{equation*}
-	$1
+\begin{align*}
+	$1 
 	\label{eq:$2}
-\end{equation*}
+\end{align*}
 $3
+endsnippet
+
+snippet ali
+\begin{align*}
+	$1 & $2 \\
+	$3
+\end{align*}
+$4
 endsnippet
 
 snippet em "emphasize" i
